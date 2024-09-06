@@ -1,0 +1,33 @@
+.accordion {
+    margin-bottom: 130px;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.accordion-title {
+    background-color: #f4f4f4;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+}
+
+.accordion-content p {
+    margin: 0;
+}
+
+.arrow {
+    float: right;
+}
+
+.arrow-icon {
+    width: 22px;
+    height: 22px;
+}
