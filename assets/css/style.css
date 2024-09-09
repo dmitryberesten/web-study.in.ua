@@ -396,6 +396,23 @@ body {
   padding: 15px 20px;
 }
 
+@media (min-width: 320px) and (max-width: 500px) {
+  .navbar-list {
+    background-color: white;
+    margin-top: -10px;
+    border-bottom-right-radius: 30px;
+  }
+
+  .overlay  {
+    background-color: transparent !important;
+  }
+
+}
+
+
+
+
+
 .navbar-item:not(:last-child) {
   border-block-end: 1px solid var(--platinum);
 }
