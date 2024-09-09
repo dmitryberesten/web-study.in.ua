@@ -42,7 +42,8 @@
 
   <!-- #HEADER -->
 
-  <header class="header slide-in-top" data-header style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+  <header class="header slide-in-top" data-header
+    style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
     <div class="container">
 
       <a href="index.html" class="logo" style="display: flex; align-items: center; gap: 15px;">
@@ -180,8 +181,8 @@
               <div class="category-card rotate-scale-down-diag-1" style="--color: 42, 94%, 55%">
 
                 <div class="card-icon">
-                <img src="./assets/images/category-1.svg" width="40" height="40" loading="lazy"
-                                    alt="Online Degree Programs" class="img">
+                  <img src="./assets/images/category-1.svg" width="40" height="40" loading="lazy"
+                    alt="Online Degree Programs" class="img">
                 </div>
 
                 <h3 class="h3">
@@ -201,10 +202,10 @@
               <div class="category-card rotate-scale-down-diag-1" style="--color: 170, 75%, 41%">
 
                 <div class="card-icon">
-               
 
-                    <img src="./assets/images/category-3.svg" width="40" height="40" loading="lazy"
-                                        alt="Off-Campus Programs" class="img">
+
+                  <img src="./assets/images/category-3.svg" width="40" height="40" loading="lazy"
+                    alt="Off-Campus Programs" class="img">
                 </div>
 
                 <h3 class="h3">
@@ -245,8 +246,8 @@
               <div class="category-card rotate-scale-down-diag-1" style="--color: 229, 75%, 58%">
 
                 <div class="card-icon">
-                 
-                    <ion-icon name="logo-react" style="font-size: 50px; color: #4461e4;"></ion-icon>
+
+                  <ion-icon name="logo-react" style="font-size: 50px; color: #4461e4;"></ion-icon>
 
                 </div>
 
@@ -515,7 +516,7 @@
           <ul class="grid-list" data-aos="fade-up">
             <li>
               <div class="stats-card" style="--color: 170, 75%, 41%">
-                <h3 class="card-title">80</h3>
+                <h3 class="card-title counter">80</h3>
 
                 <p class="card-text">студентів навчалось</p>
               </div>
@@ -523,7 +524,7 @@
 
             <li>
               <div class="stats-card" style="--color: 351, 83%, 61%">
-                <h3 class="card-title">78%</h3>
+                <h3 class="card-title f-s-c"><span class="counter">78</span>%</h3>
 
                 <p class="card-text">йдуть до кінця</p>
               </div>
@@ -531,7 +532,7 @@
 
             <li>
               <div class="stats-card" style="--color: 260, 100%, 67%">
-                <h3 class="card-title">95%</h3>
+                <h3 class="card-title f-s-c"><span class="counter">95</span>%</h3>
 
                 <p class="card-text">Рівень задоволеності</p>
               </div>
@@ -539,7 +540,7 @@
 
             <li>
               <div class="stats-card" style="--color: 42, 94%, 55%">
-                <h3 class="card-title">4</h3>
+                <h3 class="card-title counter">4</h3>
 
                 <p class="card-text">навчальні програми</p>
               </div>
@@ -605,6 +606,23 @@
         </h2>
         <div class="accordion">
 
+              <div class="accordion-item">
+            <div class="accordion-title">Чи потрібні попередні знання?
+              <span class="arrow">
+                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path d="M7 10l5 5 5-5z" />
+                </svg>
+              </span>
+            </div>
+
+            <div class="accordion-content"
+              style="background-color:#fffbf590; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+              <p>- Ні, для наших базових курсів попередні знання не потрібні. Ми починаємо з основ і поступово нарощуємо
+                складність
+                матеріалу.</p>
+            </div>
+          </div>
+
           <div class="accordion-item">
             <div class="accordion-title" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">Які є
               курси
@@ -623,24 +641,9 @@
                 технології.</p>
             </div>
           </div>
+      
           <div class="accordion-item">
-            <div class="accordion-title">Чи потрібні попередні знання?
-              <span class="arrow">
-                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                  <path d="M7 10l5 5 5-5z" />
-                </svg>
-              </span>
-            </div>
-
-            <div class="accordion-content"
-              style="background-color:#fffbf590; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;">
-              <p>- Ні, для наших базових курсів попередні знання не потрібні. Ми починаємо з основ і поступово нарощуємо
-                складність
-                матеріалу.</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <div class="accordion-title">Які курси ви пропонуєте?
+            <div class="accordion-title">Які технології ви пропонуєте?
               <span class="arrow">
                 <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                   <path d="M7 10l5 5 5-5z" />
@@ -655,21 +658,7 @@
                 React, Angular та інші.</p>
             </div>
           </div>
-          <div class="accordion-item">
-            <div class="accordion-title">Чи отримаю я сертифікат?
-              <span class="arrow">
-                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                  <path d="M7 10l5 5 5-5z" />
-                </svg>
-              </span>
-            </div>
-
-            <div class="accordion-content"
-              style="background-color:#fffbf590; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;">
-              <p>- Так, після успішного завершення курсу ви отримаєте сертифікат, який підтвердить ваші знання та
-                навички у веб-розробці.</p>
-            </div>
-          </div>
+  
           <div class="accordion-item">
             <div class="accordion-title" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">Які
               форми навчання ви пропонуєте?
@@ -685,6 +674,21 @@
               <p>- Ми пропонуємо індивідуальні заняття з ментором.</p>
             </div>
           </div>
+                  <div class="accordion-item"> 
+                    <div class="accordion-title">Чи отримаю я сертифікат?
+                      <span class="arrow">
+                        <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                          <path d="M7 10l5 5 5-5z" />
+                        </svg>
+                      </span>
+                    </div>
+                  
+                    <div class="accordion-content"
+                      style="background-color:#fffbf590; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                      <p>- Так, після успішного завершення курсу ви отримаєте сертифікат, який підтвердить ваші знання та
+                        навички у веб-розробці.</p>
+                    </div>
+                  </div>
         </div>
       </section>
 
@@ -814,7 +818,7 @@
 
           <a href="#" class="logo">
 
-            <h2 class="h2 section-title text-flicker-in-glow" >
+            <h2 class="h2 section-title text-flicker-in-glow">
               <font color="#BABABA">Web Study </font>
             </h2>
           </a>
@@ -888,6 +892,7 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script src="./assets/js/accordion.js"></script>
   <script src="./assets/js/slider.js"></script>
+  <script src="./assets/js/counter.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
