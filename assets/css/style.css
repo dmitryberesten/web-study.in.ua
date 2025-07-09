@@ -1547,3 +1547,13 @@ body {
   border-bottom-right-radius: 50px;
   margin-bottom: 100px;
 }
+
+.free_lesson {
+  margin-top: 40px;
+}
+
+.text-bottom {
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
